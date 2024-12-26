@@ -80,6 +80,9 @@ const Footer: React.FC = () => {
           &copy; {new Date().getFullYear()} Business For The Youth. All rights
           reserved.
         </div>
+        <div className="flex justify-center">
+          <p className='text-sm mt-3 -mb-7 text-center'>Website built with ❤️ by <a className='hover:text-blue-400 hover:transition-all underline underline-offset-2 text-blue-600' href='https://www.avibandi.com/'>Avi Bandi</a></p>
+        </div>
       </div>
     </footer>
   );
